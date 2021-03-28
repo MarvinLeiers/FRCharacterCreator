@@ -1,0 +1,42 @@
+#########################################################
+#                                                       #
+#               Plugin by Marvin Leiers                 #
+#             https://www.marvinleiers.de               #
+#                                                       #
+#########################################################
+
+
+############################
+### # General Settings # ###
+############################
+
+# Show plugin behaviour in the console (logging)
+enable-logging: true
+
+
+############################
+###### # Messages # ########
+############################
+
+message-enter-name: "&7Please enter a &6name &7for your character (min 5 characters) or type '#' to cancel."
+message-enter-description: "&7Please enter a &6description &7for your character (min 16 characters) or type '#' to cancel."
+message-enter-age: "&7Please enter an &6age &7for your character or type '#' to cancel."
+message-character-creation-confirmation: "&7You new character has been &acreated&7! You can switch your characters with &e/character"
+message-character-deleted: "&7Sucessfully deleted character!"
+message-playing-as-character: "&7You are playing as &a<v> &7now!"
+
+##########################
+### # MySQL Settings # ###
+##########################
+
+# Hostname of the MySQL-Database
+mysql-host: "localhost"
+
+# Name of the database
+mysql-database: "mplugin_charactercreator"
+
+# Username for the database
+mysql-user: "root"
+
+# Password for the database
+mysql-password: ""

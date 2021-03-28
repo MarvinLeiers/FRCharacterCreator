@@ -1,0 +1,12 @@
+name: FRCharacterCreator
+version: ${project.version}
+main: de.marvinleiers.frcharactercreator.FRCharacterCreator
+api-version: 1.16
+authors: [ Marvin_Leiers ]
+website: https://www.marvinleiers.de
+
+commands:
+  character:
+
+depend:
+  - MPluginAPI
